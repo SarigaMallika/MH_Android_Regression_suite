@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-03T21:25:17 IST" name="Default suite" finished-at="2021-05-03T21:28:00 IST" duration-ms="163652">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-05-03T21:25:17 IST" name="Default test" finished-at="2021-05-03T21:28:00 IST" duration-ms="163652">
+      <class name="Runner_files.Login_negative_scenario_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:25:17 IST" name="setUpClass" finished-at="2021-05-03T21:25:19 IST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:25:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:26:58 IST" duration-ms="99059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is not allowed to login when Phone number and Password fields are blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:26:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:27:13 IST" duration-ms="14841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user should get a validation message on entering invalid credentials in the Login Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:27:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:27:21 IST" duration-ms="8128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not allowed to enter more than 10 digits in the Phone number field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:27:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:27:30 IST" duration-ms="8704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is not allowed to login with invalid Phone number and valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:27:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:27:38 IST" duration-ms="8766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is not allowed to login with invalid Password and valid phone number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:27:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:27:47 IST" duration-ms="8505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not able to login on leaving Phone number field blank and only giving valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:27:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-03T21:27:56 IST" duration-ms="9180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user is not able to login on leaving Password field blank and only giving valid Phone number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate login negative functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_files.Login_negative_scenario_runner@40ef3420]" started-at="2021-05-03T21:27:56 IST" name="tearDownClass" finished-at="2021-05-03T21:28:00 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_files.Login_negative_scenario_runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
